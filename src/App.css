@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+.upperCase{
+	text-transform: uppercase;
+}
+.dealCreationContainer{
+	width: 55%;
+	margin: 100px auto 0 auto;
+	border: 2px solid #8a8a8a;
+}
+.dealCreationHead{
+	padding: 20px;
+	color: #fff;
+	margin: 0;
+	background-color: #0085de;
+}
+.dealCreationInnerContainer{
+	margin: 30px;
+	border: 1px solid #e9e9e9;
+	background-color: #f9f9f9
+}
+.dealCreationSteps,.dealCreationForm{
+	margin-top: 30px;
+}
+.dealCreationForm{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+}
+.dealCreationInputFields{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: left;
+}
+.inputLabel{
+	font-size: 12px;
+}
+.dealCreationInputFields input{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #c9c9c9;
+	border-radius: 3px;
+}
+.dealCreationSteps{
+	display: inline-block;
+  padding: 2px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+.button{
+	border: none;
+	font-size: 16px;
+	padding: 6px 45px;
+	border-radius: 20px;
+	outline: none;
+	background-color: transparent;
+}
+.activeButton{
+	color: #fff;
+	background-color: #0085de;
+}
+.dealCreationTitle{
+	font-weight: 400;
+}
+.warningMessage{
+	color: #ee5039;
+	font-size: 10px;
+	padding: 3px;
+	height: 18px;
+}
+.dealCreationButtons{
+	display: flex;
+	justify-content: space-around;
+}
+.dealCreationButtons button{
+	cursor: pointer;
+}
